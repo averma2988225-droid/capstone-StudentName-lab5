@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DEVAN CLOTHING | Premium Fashion Store</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <a href="#main" class="skip-link">Skip to main content</a>
+  
+  <header>
+    <div class="logo">DEVAN CLOTHING</div>
+    <nav aria-label="Main navigation">
+      <a href="#home">Home</a>
+      <a href="#men">Men</a>
+      <a href="#women">Women</a>
+      <a href="#accessories">Accessories</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button class="login-btn">Login</button>
+  </header>
+
+  <section class="hero" id="home">
+    <div class="hero-text">
+      <h1>Winter Sale is Live!</h1>
+      <p>Get up to <strong>50% OFF</strong> on premium cold-season outfits.</p>
+      <button class="cta">Shop Now</button>
+    </div>
+  </section>
+
+  <div class="flash-sale">
+    ⚠ Flash Sale: Extra 20% OFF Ends in ⏳ <span id="timer">01:45:30</span>
+  </div>
+
+  <main id="main">
+    <aside class="filters">
+      <h3>Filters</h3>
+      <div class="filter-group">
+        <h4>Category</h4>
+        <label><input type="checkbox" name="category" value="men"> Men</label>
+        <label><input type="checkbox" name="category" value="women"> Women</label>
+        <label><input type="checkbox" name="category" value="accessories"> Accessories</label>
+      </div>
+
+      <div class="filter-group">
+        <h4>Price</h4>
+        <label><input type="checkbox" name="price" value="under-999"> Under ₹999</label>
+        <label><input type="checkbox" name="price" value="1000-1999"> ₹1000 - ₹1999</label>
+        <label><input type="checkbox" name="price" value="2000-plus"> ₹2000+</label>
+      </div>
+
+      <div class="filter-group">
+        <h4>Color</h4>
+        <label><input type="checkbox" name="color" value="black"> Black</label>
+        <label><input type="checkbox" name="color" value="white"> White</label>
+        <label><input type="checkbox" name="color" value="blue"> Blue</label>
+      </div>
+    </aside>
+
+    <section class="product-grid">
+      <article class="product-card">
+        <img src="https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg" alt="Men's Cotton Shirt - Blue casual wear">
+        <h4>Men's Cotton Shirt</h4>
+        <p class="price">₹1,299</p>
+        <button>Add to Cart</button>
+      </article>
+
+      <article class="product-card">
+        <img src="https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg" alt="Winter Hoodie - Warm comfortable hoodie">
+        <h4>Winter Hoodie</h4>
+        <p class="price">₹2,499</p>
+        <button>Add to Cart</button>
+      </article>
+
+      <article class="product-card">
+        <img src="https://fakestoreapi.com/img/71YXzeOuslL._AC_UY879_.jpg" alt="Classic Jacket - Premium leather jacket">
+        <h4>Classic Jacket</h4>
+        <p class="price">₹3,999</p>
+        <button>Add to Cart</button>
+      </article>
+
+      <article class="product-card">
+        <img src="https://fakestoreapi.com/img/71pWzhdJNwL._AC_UL640_QL65_ML3_.jpg" alt="Ripped Denim Jeans - Trendy distressed jeans">
+        <h4>Ripped Denim Jeans</h4>
+        <p class="price">₹1,899</p>
+        <button>Add to Cart</button>
+      </article>
+
+      <article class="product-card">
+        <img src="https://fakestoreapi.com/img/61sbMiUnoGL._AC_UL640_QL65_ML3_.jpg" alt="Women's Dress - Elegant evening wear">
+        <h4>Women's Dress</h4>
+        <p class="price">₹2,299</p>
+        <button>Add to Cart</button>
+      </article>
+
+      <article class="product-card">
+        <img src="https://fakestoreapi.com/img/71YAIFU48IL._AC_UL640_QL65_ML3_.jpg" alt="Sneakers - Comfortable sports shoes">
+        <h4>Premium Sneakers</h4>
+        <p class="price">₹4,999</p>
+        <button>Add to Cart</button>
+      </article>
+    </section>
+  </main>
+
+  <section class="testimonials">
+    <h2>What Our Customers Say</h2>
+    <div class="testimonial-grid">
+      <article class="testimonial">
+        <p>"Amazing quality and fast delivery! Love my new jacket."</p>
+        <cite>- Sarah M.</cite>
+      </article>
+      <article class="testimonial">
+        <p>"Best online shopping experience. Great customer service!"</p>
+        <cite>- Raj K.</cite>
+      </article>
+      <article class="testimonial">
+        <p>"Trendy designs at affordable prices. Highly recommended!"</p>
+        <cite>- Priya S.</cite>
+      </article>
+    </div>
+  </section>
+
+  <section class="subscribe" id="contact">
+    <h2>Stay Updated</h2>
+    <p>Get exclusive offers, deals & early drop alerts.</p>
+    <form>
+      <label for="email" class="sr-only">Email Address</label>
+      <input type="email" id="email" placeholder="Enter your email" required />
+      <button type="submit">Subscribe</button>
+    </form>
+  </section>
+
+  <footer>
+    <div class="footer-content">
+      <div class="footer-section">
+        <h3>DEVAN CLOTHING</h3>
+        <p>Premium fashion for everyone</p>
+      </div>
+      <div class="footer-section">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#men">Men</a></li>
+          <li><a href="#women">Women</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h4>Follow Us</h4>
+        <div class="social-icons">
+          <a href="#" aria-label="Facebook">📘</a>
+          <a href="#" aria-label="Instagram">📷</a>
+          <a href="#" aria-label="Twitter">🐦</a>
+        </div>
+      </div>
+    </div>
+    <p class="copyright">© 2025 DEVAN CLOTHING — All Rights Reserved.</p>
+  </footer>
+
+</body>
+</html>
