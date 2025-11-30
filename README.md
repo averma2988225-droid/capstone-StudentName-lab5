@@ -117,3 +117,4 @@ capstone-StudentName-lab5/
 **Course**: Web Development Capstone  
 **Date**: 2025  
 **Theme**: E-commerce Store UI
+<img width="1909" height="881" alt="image" src="https://github.com/user-attachments/assets/77ee3a0a-a21c-4259-8759-ec52fcf351d4" />
