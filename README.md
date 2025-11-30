@@ -70,8 +70,7 @@ A fully responsive fashion retail website featuring product listings, filter sid
 3. No server setup required - fully static website
 
 ### GitHub Pages (Live Demo)
-**Live Site**: [https://yourusername.github.io/capstone-StudentName-lab5/](https://yourusername.github.io/capstone-StudentName-lab5/)  
-*(Replace 'yourusername' and 'StudentName' with actual values)*
+**Live Site**: [https://averma2988225-droid.github.io/capstone-ayush-lab5/](https://yourusername.github.io/capstone-StudentName-lab5/)  
 
 ### File Structure
 ```
